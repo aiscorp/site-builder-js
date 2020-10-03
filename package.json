@@ -5,7 +5,7 @@
   "main": "scr/index.js",
   "scripts": {
     "run": "parcel ./scr/index.html -p 3000 --open",
-    "build": "parcel build ./scr/index.html --no-source-maps"
+    "build": "parcel build ./scr/index.html --no-source-maps --public-url site-builder-js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "url": "https://github.com/aiscorp/site-builder-js/issues"
   },
   "homepage": "https://aiscorp.github.io/site-builder-js",
+  "homedir": "site-builder-js",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   }
